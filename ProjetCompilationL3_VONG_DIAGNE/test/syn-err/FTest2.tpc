@@ -1,0 +1,43 @@
+/* #include <stdio.h>
+   #include <math.h> */
+/* int trinome(float a, float b, float c) ;
+    double valeur(double a, double b, double c, double x) ; */
+/* Résolution d'une équation du deuxième degré */
+
+struct test {
+  char texte;
+  int compteur;
+};
+
+int r1, r2;
+int max;
+int main(void) {
+   int b, c;
+   b=-1;
+   while (b<=1) {
+       c=-1;
+       while (c<=1) {
+           print(b);
+           c=c+1;
+       }
+       b=b+1;
+   }
+   return 0
+}
+
+int trinome(int a,int b, int c) {
+    int d;
+    int s;
+    d=b*b-4*a*c;
+    if (d>=0) {
+        s=sqrt(d);
+        r1=(-b+s)/(2*a);
+        r2=(-b-s)/(2*a);
+        return 1;
+    }
+    return 0;
+}
+
+int valeur(int a, int b, int c, int x) {
+    return a*x*x+b*x+c;
+}
