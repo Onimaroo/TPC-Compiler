@@ -6,7 +6,7 @@ Il faut se placer à la racine des fichiers sources du projet (le dossier src) e
 
 `./Script.sh`
 
-Si vous cherchez à l'éxécuter manuellement avec un fichier TPC que vous avez, il faut le lancer comme ceci:
+Si vous cherchez à l'éxécuter manuellement avec un fichier TPC que vous avez, il faut d'abord lancer la commande `make` dans le terminal pour build le projet, puis lancer ceci:
 
 `../bin/tpcc [OPTIONS] NomDeVotreFichier.tpc`
 
