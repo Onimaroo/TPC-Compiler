@@ -1,5 +1,5 @@
 # TPC-Compiler
-Un compilateur de TPC (Très Petit C) fait en C en complément de Flex et Yacc/Bison. Projet scolaire fait avec un binôme.
+Un compilateur de TPC (Très Petit C) fait en Flex/Bison en complément du C. Projet scolaire fait avec un binôme.
 
 ## Comment l'éxécuter?
 Il faut se placer à la racine des fichiers sources du projet (le dossier src) et simplement lancer l'éxécutable `Script.sh` pour lancer les jeux de tests dans le dossier `test`. Le lancement se fait de la façon suivante: 
